@@ -1,4 +1,5 @@
 <?php
+// src/OC/UserBundle/Entity/User.php
 
 namespace OC\UserBundle\Entity;
 
@@ -6,9 +7,8 @@ use Doctrine\ORM\Mapping as ORM;
 use FOS\UserBundle\Model\User as BaseUser;
 
 /**
- * @ORM\Entity(repositoryClass="OC\UserBundle\Repository\UserRepository")
+ * @ORM\Entity
  */
-
 class User extends BaseUser
 {
   /**
